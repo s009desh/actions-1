@@ -13,7 +13,7 @@ jobs:
         - name: list repo  files
           run: ls -ltra
         
-        - name: Execution of shell Script
+        - name: Execution of shell Script check
           run: |
             chmod 777 ascii-script.sh
             ./ascii-script.sh
